@@ -2,7 +2,7 @@
   text-align: center;
 }
 Body{
-  background: url('../Images/image1.jpeg');
+  background: url('./Components/image1.jpeg');
 }
 
 .App-logo {

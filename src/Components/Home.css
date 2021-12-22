@@ -5,3 +5,12 @@
     text-align: center;
     margin-top: 20px;
 }
+.bg-dark{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+}
+.font-link{
+    font-family: 'Licorice', cursive;;
+}
