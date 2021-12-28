@@ -1,0 +1,39 @@
+.color-nav {
+    background-color: rgba(14, 78, 199, 0.924)
+}
+.Nav-title{
+    position: fixed;
+    text-align: start;
+}
+.Nav{
+    position: fixed;
+    text-align: center;
+    padding-inline-end: 4em;
+    list-style: none;
+    
+}
+.nav-ul{
+    max-height: 40px;
+    position: relative;
+    background: rgb(173, 41, 41);
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    align-items: flex-end;
+    margin: 0;
+    padding-right: 1px;
+    transition: 1s;
+    display: inline-block;
+}
+.nav-ul-contact{
+    margin-left: 1rem;
+}
+.nav-ul-home{
+    margin-right: 2rem;
+}
+.nav-ul-portfolio{
+    margin-right: 2rem;
+}
+.nav-ul-about{
+    margin-right: 2rem;
+}

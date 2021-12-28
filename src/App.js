@@ -1,27 +1,22 @@
 import './App.css';
-import Home from './Components/Home';
-import About from './Components/About';
-import Portfolio from './Components/Portfolio';
-import Navbar from './Components/Navbar';
-import {BrowserRouter as Router, Routes, Route, Redirect} from "react-router-dom";
+import Home from './Components/homePage/Home';
+import About from './Components/aboutMe/About';
+import Portfolio from './Components/portfolio/Portfolio';
+import Navmenu from './Components/navigation/Navbar';
+import Contact from './Components/contact/Contact';
+
 
 function App() {
   return (
     <div className="body">
-    <Router>
-    <div >
-      <div className="--" >
+      <Navmenu />
+      <div>
+        <div className="pages"></div>
+        <Portfolio className="ribs"/>
+        <About className="ribs"/>
+        <Contact className="ribs"/>
+        <Home className="ribs"/>
       </div>
-      <Navbar/>
-      <Home/>
-      <Routes className="--">
-        <Route exact path="/" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
-      </Routes>
-      
-    </div>
-  </Router>
     </div>
   );
 }

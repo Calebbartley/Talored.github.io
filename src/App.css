@@ -1,13 +1,21 @@
 .App {
   text-align: center;
 }
-Body{
-  background: url('./Components/image1.jpeg');
+Body {
+  height: 100vh;
+  background: url("./images/image1.jpeg");
+}
+
+.pages {
+  width: 100%;
+  height: calc(100vh - 20px);
+  position: relative;
+  top: 20px;
+  scroll-snap-type: y mandatory;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
