@@ -1,39 +1,25 @@
-.color-nav {
-    background-color: rgba(14, 78, 199, 0.924)
-}
-.Nav-title{
+.nav{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
     position: fixed;
-    text-align: start;
-}
-.Nav{
-    position: fixed;
-    text-align: center;
-    padding-inline-end: 4em;
-    list-style: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
     
 }
-.nav-ul{
-    max-height: 40px;
-    position: relative;
-    background: rgb(173, 41, 41);
+.logo{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ul{
+    list-style-type: none;
+    text-align: end;
+    margin-right: 10px;
+    font-size: medium;
+    padding: 0;
     overflow: hidden;
-    color: rgb(255, 255, 255);
-    list-style: none;
-    align-items: flex-end;
-    margin: 0;
-    padding-right: 1px;
-    transition: 1s;
-    display: inline-block;
-}
-.nav-ul-contact{
-    margin-left: 1rem;
-}
-.nav-ul-home{
-    margin-right: 2rem;
-}
-.nav-ul-portfolio{
-    margin-right: 2rem;
-}
-.nav-ul-about{
-    margin-right: 2rem;
+
 }
