@@ -1,12 +1,13 @@
 .nav{
-    background-color: #fff;
-    height: 50px;
+    background-color: rgba(179, 18, 18, 0.404);
+    height: 30px;
     width: 100%;
     position: fixed;
-    top: 0;
     left: 0;
     z-index: 100;
-    
+}
+.nav-title{
+    justify-items:auto;
 }
 .logo{
     height: 35px;
@@ -16,10 +17,16 @@
 }
 .ul{
     list-style-type: none;
+    text-decoration: none;
     text-align: end;
     margin-right: 10px;
-    font-size: medium;
+    font-size: 20px;
     padding: 0;
     overflow: hidden;
-
+}
+.home{
+    color: rgb(0, 60, 112);
+}
+link{
+    
 }

@@ -4,11 +4,8 @@ import { Card  } from 'react-bootstrap'
 
 function Home() {
     return (
-      <div>
+      <div className='home'>
         <header className="font-link">
-          <h1>
-            Talor'd Tales <br />
-          </h1>
         </header>
         <div
           style={{
@@ -47,7 +44,6 @@ function Home() {
                   voice to those who are liberated and sexually expressive,
                   slowly but surely erasing the stigma of sex as taboo.
                 </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
               </Card.ImgOverlay>
             </Card>
           </h1>

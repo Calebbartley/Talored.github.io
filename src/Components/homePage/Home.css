@@ -1,9 +1,12 @@
+.home{
+    height: 100vh;
+    background-image: url('../images/image2.jpeg');
+}
 .Text{
     font-size: 20px;
     font-weight: bold;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
 }
 .bg-dark{
     background-color: #ffffff10;

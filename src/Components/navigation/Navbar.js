@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { GrHomeRounded } from "react-icons/gr";
+import { IoMdPaper } from "react-icons/io";
 import "./Navbar.css";
 
 const NavBar = () => {
   return (
     <nav>
       <div className="nav">
-      TT
       <ul className="ul">
-          <Link to="/"> Home </Link>
-          <Link to="/About">About </Link>
+          <Link className="logo" to="/">TT</Link>
+          <Link className="home" to="/"> <GrHomeRounded/> </Link>
+          <Link to="/About"> <IoMdPaper/> </Link>
           <Link to="/Portfolio">Portfolio </Link>
           <Link to="/Contact">Contact </Link>
         </ul>
@@ -19,4 +21,3 @@ const NavBar = () => {
   );
 };
 export default NavBar;
-
