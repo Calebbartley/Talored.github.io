@@ -15,14 +15,24 @@ function Contact() {
   return (
     <div className="contact">
       <div>
+        <Card>
+          <Card.Header></Card.Header>
+        </Card>
         <Card className="contact-card">
           <Card.Body>
-            ffsdfkkfsdfdsdf
+            fill out the form below to contact me eafttgiiujdf fgdfsdf kj fgfd fdsdf sdlkhjhf wef h fdsdajkh  fdssss ffds fdksjdhh fdsaf  kjhkja fds ljhlkhjaf  fsfasddh  fdsdfa fdfkh klu l liku lkghjh gbklujahdf 
           </Card.Body>
         </Card>
       </div>
       <Card style={{ width: "18rem" }} className="contact-card">
         <Form className="contact-form" onSubmit={handleSubmit}>
+        <h3>
+        Want to Book me for your next event? 
+        </h3>
+        <p>
+        Send me a message!
+        </p>
+        
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email Address :</Form.Label>
             <Form.Control

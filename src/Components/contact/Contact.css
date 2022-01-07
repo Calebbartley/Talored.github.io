@@ -17,8 +17,11 @@
    background-color: bisque;
    opacity: 0.8;
    border-radius: 5%;
-   padding: 20px;
+   padding: 40px;
    width: 80%;
    max-width: 500px;
+   display: flex;
    text-align: center;
+   justify-content: center;
+   align-items: center;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GrHomeRounded } from "react-icons/gr";
-import { IoMdPaper } from "react-icons/io";
+import { GrBook, GrFolder, GrMailOption } from "react-icons/gr";
+
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -9,15 +9,21 @@ const NavBar = () => {
     <nav>
       <div className="nav">
       <ul className="ul">
-          <Link className="logo" to="/">TT</Link>
-          <Link to="/"> <GrHomeRounded/> </Link>
-          <Link to="/About"> <IoMdPaper/> </Link>
-          <Link to="/Portfolio">Portfolio </Link>
-          <Link to="/Contact">Contact </Link>
+        <Link className="logo" to="/">
+          <li>TT</li>
+        </Link>
+          <Link to="/About">
+            <GrBook />
+          </Link>
+          <Link to="/Portfolio">
+            <GrFolder />
+          </Link>
+          <Link to="/Contact">
+          <GrMailOption />
+          </Link>
         </ul>
       </div>
     </nav>
-
   );
 };
 export default NavBar;
