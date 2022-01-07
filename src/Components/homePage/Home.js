@@ -18,13 +18,18 @@ function Home() {
           <h1 className="Text">
             <Card className="bg-dark text-white">
               <Card.ImgOverlay>
-                <Card.Title className="font-link">Welcome To Talor'd Tales.<p> Your home for Custom Erotic Stories</p></Card.Title>
-                <Card.Text>
-
+                <Card.Title className="font-link">Welcome To Talor'd Tales.</Card.Title>
+                <Card.Text className='card-text'>
+                  <p>Your home for Custom Erotic Stories</p>
                 </Card.Text>
               </Card.ImgOverlay>
             </Card>
           </h1>
+          <div>
+            <h2 className="font-link-footer">
+             
+            </h2>
+          </div>
         </div>
       </div>
     );

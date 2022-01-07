@@ -15,8 +15,9 @@
     list-style-type: none;
     font-family: 'Licorice', cursive;;
     font-size: 30px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    font-weight: bold !important;
+    color: rgba(251, 0, 0, 0.767);
+    
 }
 .ul {
     display: flex;

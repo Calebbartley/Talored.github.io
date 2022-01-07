@@ -7,13 +7,40 @@
     font-weight: bold;
     color: #fff;
     text-align: center;
+    
 }
 .bg-dark{
     background-color: #ffffff10;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-
+    border-radius: 10px;
+    border: 4px solid #fff;
+    border-color: rgb(223, 128, 12);
+    padding: 10px;
 }
 .font-link{
     font-family: 'Licorice', cursive;;
+    font-size: 50px;
+    color: rgb(148, 12, 12);
+}
+
+.font-link-footer{
+    font-family: 'Licorice', cursive;;
+    font-size: 50px;
+    color: rgb(114, 94, 94);
+    position: relative;
+    margin-top: 200px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 4%;
+    border: 3px solid #fff;
+    border-color: rgb(223, 128, 12);
+}
+
+.card-text{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
 }
