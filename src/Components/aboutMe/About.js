@@ -5,14 +5,17 @@ import './About.css'
 function About() {
     return (
         <div className='About'>
+        <div>
+          <img class="card-img-top" src="./images/IMG_5471.JPG" alt="Card-cap"/>
+        </div>
         <div
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           height: "100vh",
-        }}
-      >
+        }}>
+        
         <h1 className="Text">
           <Card className="about-card">
             <Card.ImgOverlay>
