@@ -16,7 +16,7 @@
 .contact-card{
    background-color: bisque;
    opacity: 0.8;
-   border-radius: 5%;
+   border-radius: 6px;
    padding: 40px;
    width: 80%;
    max-width: 500px;

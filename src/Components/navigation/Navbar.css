@@ -10,14 +10,14 @@
     justify-items:auto;
 }
 .logo{
-    height: 35px;
+    height: 40px;
     text-decoration: none;
     list-style-type: none;
     font-family: 'Licorice', cursive;;
     font-size: 30px;
     font-weight: bold !important;
     color: rgba(251, 0, 0, 0.767);
-    
+    margin: 3px;
 }
 .ul {
     display: flex;
@@ -27,7 +27,7 @@
     padding-bottom:15px;
     line-height:20px;
     overflow: hidden;
-    background-color: rgba(233, 212, 212, 0.514);
+    background-color: rgba(240, 197, 197, 0.787);
     border-radius: 30px;
     position: fixed;
     top: 4px;

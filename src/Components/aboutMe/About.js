@@ -2,11 +2,12 @@ import React from 'react'
 import {Card} from 'react-bootstrap'
 import './About.css'
 
+
 function About() {
     return (
         <div className='About'>
         <div>
-          <img class="card-img-top" src="./images/IMG_5471.JPG" alt="Card-cap"/>
+          <img class="card-img-top" src="images/image1.jpeg" alt="Card-cap"/>
         </div>
         <div
         style={{

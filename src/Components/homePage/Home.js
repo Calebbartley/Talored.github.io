@@ -20,7 +20,7 @@ function Home() {
               <Card.ImgOverlay>
                 <Card.Title className="font-link">Welcome To Talor'd Tales.</Card.Title>
                 <Card.Text className='card-text'>
-                  <p>Your home for Custom Erotic Stories</p>
+                  <p>To empower the beauty of sexuality through expression and entertainment.</p>
                 </Card.Text>
               </Card.ImgOverlay>
             </Card>
