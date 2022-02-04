@@ -26,7 +26,7 @@ function Home() {
             </Card>
           </h1>
           <div>
-            <h2 className="font-link-footer">
+            <h2 className="card-text">
              
             </h2>
           </div>

@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className="nav">
       <ul className="ul">
         <Link className="logo" to="/">
-          <img height={30} src={logo} alt="logo" />
+          <img  src={logo} alt="logo" />
         </Link>
           <Link to="/About">
             <GrBook />
