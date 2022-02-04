@@ -10,14 +10,15 @@
     justify-items:auto;
 }
 .logo{
+    height: 5px;
+    width: 5px;
+    margin-left: 10px;
+}
+img{
+    position: relative;
+    border-radius: 20px;
     height: 40px;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Licorice', cursive;;
-    font-size: 30px;
-    font-weight: bold !important;
-    color: rgba(251, 0, 0, 0.767);
-    margin: 3px;
+    bottom: 10px;
 }
 .ul {
     display: flex;

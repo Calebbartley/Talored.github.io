@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { GrBook, GrFolder, GrMailOption } from "react-icons/gr";
-
+import logo from "../images/logo.JPG";
 import "./Navbar.css";
 
 const NavBar = () => {
+  
   return (
     <nav>
       <div className="nav">
       <ul className="ul">
         <Link className="logo" to="/">
-          <li>T T</li>
+          <img height={30} src={logo} alt="logo" />
         </Link>
           <Link to="/About">
             <GrBook />
