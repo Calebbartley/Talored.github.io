@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import { Carousel } from "bootstrap";
+import  Carousel  from "react-bootstrap/Carousel";
 
 function Portfolio() {
   return (

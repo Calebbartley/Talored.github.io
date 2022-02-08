@@ -22,7 +22,7 @@ function About() {
             <Card.ImgOverlay>
               <Card.Title className="font-link">About me</Card.Title>
               <Card.Body>
-              <p>
+              <a>
                 Spoken word artist , Talor’d Tales, was born in Saint Louis ,
                 Missouri in 1994. She developed a passion for creative writing
                 at an early age ; she loved the freedom of constructing a
@@ -46,7 +46,7 @@ function About() {
                 of conduct and conformity to gender roles. Talor’d gives a
                 voice to those who are liberated and sexually expressive,
                 slowly but surely erasing the stigma of sex as taboo.
-                </p>
+                </a>
               </Card.Body>
             </Card.ImgOverlay>
           </Card>
